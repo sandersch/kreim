@@ -1,0 +1,49 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+Area	lib/kreim/area.rb	/^  class Area$/;"	c	module:Kreim
+Error	lib/kreim.rb	/^  class Error < StandardError; end$/;"	c	module:Kreim
+Info	lib/kreim/info.rb	/^  module Info$/;"	m	module:Kreim
+Kreim	lib/kreim.rb	/^module Kreim$/;"	m
+Kreim	lib/kreim/area.rb	/^module Kreim$/;"	m
+Kreim	lib/kreim/info.rb	/^module Kreim$/;"	m
+Kreim	lib/kreim/npc.rb	/^module Kreim$/;"	m
+Kreim	lib/kreim/version.rb	/^module Kreim$/;"	m
+NPC	lib/kreim/npc.rb	/^  class NPC < Delegator$/;"	c	module:Kreim
+all	lib/kreim/npc.rb	/^    def self.all$/;"	S	class:Kreim.NPC
+any?	lib/kreim/npc.rb	/^    def self.any?$/;"	S	class:Kreim.NPC
+boss	lib/kreim/npc.rb	/^    def self.boss$/;"	S	class:Kreim.NPC
+boss?	lib/kreim/npc.rb	/^    def boss?$/;"	f	class:Kreim.NPC
+boss?	lib/kreim/npc.rb	/^    def self.boss?(npc_name)$/;"	S	class:Kreim.NPC
+cleared?	lib/kreim/info.rb	/^    def self.cleared?$/;"	S	module:Kreim.Info
+cleared_to	lib/kreim/info.rb	/^    def self.cleared_to$/;"	S	module:Kreim.Info
+cleared_to=	lib/kreim/info.rb	/^    def self.cleared_to=(area)$/;"	S	module:Kreim.Info
+cleared_to_index	lib/kreim/info.rb	/^    def self.cleared_to_index$/;"	S	module:Kreim.Info
+cleared_to_throne_room?	lib/kreim/info.rb	/^    def self.cleared_to_throne_room?$/;"	S	module:Kreim.Info
+current	lib/kreim/area.rb	/^    def self.current$/;"	S	class:Kreim.Area
+estimated_wave_interval	lib/kreim/info.rb	/^    def self.estimated_wave_interval$/;"	S	module:Kreim.Info
+find_by_area_name	lib/kreim/area.rb	/^    def self.find_by_area_name(area_name)$/;"	S	class:Kreim.Area
+find_by_room_id	lib/kreim/area.rb	/^    def self.find_by_room_id(room_id)$/;"	S	class:Kreim.Area
+in?	lib/kreim/area.rb	/^    def self.in?(room_id)$/;"	S	class:Kreim.Area
+index_of	lib/kreim/info.rb	/^    def self.index_of(area_name)$/;"	S	module:Kreim.Info
+initialize	lib/kreim/area.rb	/^    def initialize(index, name, rooms)$/;"	f	class:Kreim.Area
+initialize	lib/kreim/npc.rb	/^    def initialize(gameobj)$/;"	f	class:Kreim.NPC
+last_wave_at	lib/kreim/info.rb	/^    def self.last_wave_at$/;"	S	module:Kreim.Info
+last_wave_at=	lib/kreim/info.rb	/^    def self.last_wave_at=(wave_time)$/;"	S	module:Kreim.Info
+max_scrip	lib/kreim/info.rb	/^    def self.max_scrip$/;"	S	module:Kreim.Info
+max_scrip=	lib/kreim/info.rb	/^    def self.max_scrip=(num)$/;"	S	module:Kreim.Info
+maxxed_scrip?	lib/kreim/info.rb	/^    def self.maxxed_scrip?$/;"	S	module:Kreim.Info
+next_wave_at	lib/kreim/info.rb	/^    def self.next_wave_at$/;"	S	module:Kreim.Info
+next_wave_in	lib/kreim/info.rb	/^    def self.next_wave_in$/;"	S	module:Kreim.Info
+reim?	lib/kreim/npc.rb	/^    def reim?$/;"	f	class:Kreim.NPC
+royal?	lib/kreim/npc.rb	/^    def royal?$/;"	f	class:Kreim.NPC
+royal?	lib/kreim/npc.rb	/^    def self.royal?(npc_name)$/;"	S	class:Kreim.NPC
+royals	lib/kreim/npc.rb	/^    def self.royals$/;"	S	class:Kreim.NPC
+scrip_count	lib/kreim/info.rb	/^    def self.scrip_count$/;"	S	module:Kreim.Info
+scrip_count=	lib/kreim/info.rb	/^    def self.scrip_count=(num)$/;"	S	module:Kreim.Info
+wing_of	lib/kreim/npc.rb	/^    def self.wing_of(boss_name)$/;"	S	class:Kreim.NPC
